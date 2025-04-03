@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS "Genre" CASCADE;
+
+CREATE TABLE "Genre"
+(
+    "GenreId" SERIAL PRIMARY KEY,
+    "Name" VARCHAR(120)
+);
