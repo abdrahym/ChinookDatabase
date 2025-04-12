@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS "Artist" CASCADE;
+
+CREATE TABLE "Artist"
+(
+    "ArtistId" SERIAL PRIMARY KEY,
+    "Name" VARCHAR(120)
+);
